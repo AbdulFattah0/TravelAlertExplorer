@@ -1,0 +1,19 @@
+{
+  "name": "p1-server",
+  "version": "1.0.0",
+  "description": "Project 1 Server",
+  "license": "ISC",
+  "author": "Abdul Marouf",
+  "type": "module",
+  "main": "server.js",
+    "scripts": {
+    "server": "node server",
+    "watch": "node --watch server"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0"
+  }
+}
